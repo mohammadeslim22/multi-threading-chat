@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ClientChatController">
+   <children>
+      <TextArea fx:id="messageArea" layoutX="21.0" layoutY="87.0" prefHeight="271.0" prefWidth="364.0" />
+      <Label fx:id="messagelable" layoutX="29.0" layoutY="29.0" lineSpacing="80.0" text="Message" />
+      <TextField fx:id="textField" layoutX="89.0" layoutY="25.0" onAction="#onAction" prefHeight="25.0" prefWidth="248.0" />
+      <Label fx:id="Tolable" layoutX="369.0" layoutY="29.0" text="To:" />
+      <TextField fx:id="recivername" layoutX="425.0" layoutY="25.0" onAction="#recivername" />
+      <ListView fx:id="clientsList" layoutX="420.0" layoutY="87.0" onMouseClicked="#itemselected" prefHeight="271.0" prefWidth="163.0" />
+   </children>
+</Pane>

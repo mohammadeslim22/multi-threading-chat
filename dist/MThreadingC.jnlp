@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MThreadingC.jnlp">
+  <information>
+    <title>MThreadingC</title>
+    <vendor>M.Eslim</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MThreadingC.jar" size="25613" download="eager" />
+    <jar href="lib\commons-codec-1.7.jar" size="259600" download="eager" />
+    <jar href="lib\mongo-java-driver-3.3.0 2.jar" size="1540617" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="MThreadingC" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="others.MThreadingC"  name="MThreadingC" />
+  <update check="always"/>
+</jnlp>
